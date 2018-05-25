@@ -1,5 +1,4 @@
 # Instructions to integrate your website with the Dibs widget
----
 
 ### 1. Installing widget code:
 
@@ -48,5 +47,6 @@ Please reach out to us if you have any questions, happy coding!
 *: You can learn more about HTML5 dataset attributes here:
 
 [MDN: HTML Dataset Attributes](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
+
 [MDN: How to use dataset attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
