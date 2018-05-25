@@ -32,7 +32,7 @@ In addition to this first attribute, any HTML tag with the following attributes 
 For example, an HTML div tag on your site like the following:
 
 ```
-<div data-dibs="true"> See classes </div>
+<button data-dibs="true"> See classes </button>
 ```
 
 will open the widget to the schedule page without any other action required (provided the widget script is installed). The following tag:
