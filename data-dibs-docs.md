@@ -14,9 +14,7 @@ on HTML tags that have certain HTML5 dataset attributes* which indicate our widg
 to our schedule or other specified pages. Any HTML tag on the studio's site that will interact
 with our widget must have the following attribute:
 
-```
-data-dibs="true"`
-```
+`data-dibs="true"`
 
 In addition to this first attribute, any HTML tag with the following attributes can interact with the widget:
 
