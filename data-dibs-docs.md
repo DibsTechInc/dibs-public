@@ -42,6 +42,22 @@ will open the widget to the schedule page without any other action required (pro
 
 will open the widget to the signup page for new users.
 
+#### Schedule Filtering
+
+Using our data attributes, it is also possible to open the Dibs schedule so that
+it only shows classes at one of the studio's locations.
+
+If you add the `data-dibs-filter-locations="12"` attribute to an HTML element, it will
+open the schedule to the location with the Dibs location ID of 12.
+Location IDs differ by studio and using the wrong location ID will result in the
+schedule opening and displaying no classes at all.
+In order to find out which location IDs to use for your studio, please contact Dibs and
+we will provide you the IDs promptly.
+
+If you want to filter the schedule to multiple locations, set the value of the
+`data-dibs-filter-locations` attribute to be multiple location IDs separated by
+a comma (no spaces).
+
 Please reach out to us if you have any questions, happy coding!
 
 *: You can learn more about HTML5 dataset attributes here:
