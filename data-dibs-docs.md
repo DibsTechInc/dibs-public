@@ -21,6 +21,8 @@ In addition to this first attribute, any HTML tag with the following attributes 
 
 - `data-dibs-pricing="true"` - any tag with this attribute will open the widget to the page where users can buy packages and memberships to the studio.
 
+- `data-dibs-gift="true"` - any tag with this attribute will open the widget to the page where users can purchase gift cards (if you choose to have this feature)
+
 - `data-dibs-profile="true"` - any tag with this attribute will open the widget to the user's personal setting page
 
 - `data-dibs-account="true"` - any tag with this attribute will open the widget to the user's account page with links to where they may view active plans, upcoming classes, and adjust their account settings.
@@ -28,6 +30,7 @@ In addition to this first attribute, any HTML tag with the following attributes 
 - `data-dibs-signup="true"` - any tag with this attribute will open the widget to the sign up page
 
 - `data-dibs-login="true"` - any tag with this attribute will open the widget to the login page
+
 For example, an HTML div tag on your site like the following:
 
 ```
