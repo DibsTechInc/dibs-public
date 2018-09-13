@@ -45,7 +45,11 @@ will open the widget to the schedule page without any other action required (pro
 
 will open the widget to the signup page for new users.
 
-#### Schedule Filtering
+---
+
+## Schedule Filtering
+
+#### Filtering by Location
 
 Using our data attributes, it is also possible to open the Dibs schedule so that
 it only shows classes at one of the studio's locations.
@@ -61,6 +65,21 @@ If you want to filter the schedule to multiple locations, set the value of the
 `data-dibs-filter-locations` attribute to be multiple location IDs separated by
 a comma (no spaces).
 
+#### Filtering by Class Name
+
+It is also possible to filter the Dibs schedule by class name as well.
+
+If you add the `data-dibs-filter-classname="HIIT Row"` attribute to an HTML element,
+it will open the schedule and only display classes named "HIIT Row". This filter will work
+with any class name your studio offers. The class name matching is case insensitive and ignores
+whitespace and punctuation.
+
+Currently, this data attribute only supports filtering the schedule to one particular class
+name. If you would like to be able to use it to include multiple class types, please reach
+out to Dibs.
+
+---
+
 Please reach out to us if you have any questions, happy coding!
 
 *: You can learn more about HTML5 dataset attributes here:
@@ -68,4 +87,3 @@ Please reach out to us if you have any questions, happy coding!
 [MDN: HTML Dataset Attributes](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset)
 
 [MDN: How to use dataset attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
-
