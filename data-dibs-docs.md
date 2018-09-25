@@ -49,6 +49,17 @@ will open the widget to the signup page for new users.
 
 ## Schedule Filtering
 
+#### Filtering by Class
+
+Using our data attributes, it is possible to open the Dibs schedule to a particular
+class automatically. However, in order to do so, you need API access to your booking
+platform (i.e. MindBody, ZingFit, etc.) in order to get the unique identifier for
+each class. In MindBody, for example, this would be the class's ID field.
+
+If you add the `data-dibs-classid="<class's ID>"` attribute, to an HTML element on
+a page with the Dibs widget code, it will open the Dibs schedule to the date of the class
+and filter the schedule to only show only that particular class.
+
 #### Filtering by Location
 
 Using our data attributes, it is also possible to open the Dibs schedule so that
