@@ -21,7 +21,9 @@ In addition to this first attribute, any HTML tag with the following attributes 
 
 - `data-dibs-pricing="true"` - any tag with this attribute will open the widget to the page where users can buy packages and memberships to the studio.
 
-- `data-dibs-gift="true"` - any tag with this attribute will open the widget to the page where users can purchase gift cards (if you choose to have this feature)
+- `data-dibs-gift="true"` - any tag with this attribute will open the widget to the page where users can purchase gift cards (if you choose to have this feature).
+
+- `data-dibs-raf="true"` - any tag with this attribute will open the widget to the Refer-A-Friend page where users can refer Dibs to your studio for bonus credit when their referral makes a purchase.
 
 - `data-dibs-profile="true"` - any tag with this attribute will open the widget to the user's personal setting page
 
