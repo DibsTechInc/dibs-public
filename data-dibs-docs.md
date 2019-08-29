@@ -4,8 +4,13 @@
 
 Please add this snippet of code to the `<head>` of your site on the pages you want the widget to display:
 ```
-<script src=“https://d1yzs2hnv2a9ej.cloudfront.net/dibsloader.js?id=90“> </script>
+<script src=https://d1yzs2hnv2a9ej.cloudfront.net/dibsloader.js?id=90> </script>
 ```
+
+Replace '90' with your dibs_studio_id
+
+For Wix sites, follow this link and follow the instructions to embed custom code to your header: https://support.wix.com/en/article/embedding-custom-code-to-your-site
+
 ### 2. Updating links:
 
 In order to seamlessly integrate into our clients' sites, our widget listens for click events
